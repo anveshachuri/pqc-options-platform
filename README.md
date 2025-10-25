@@ -44,7 +44,7 @@ A quantum-safe financial derivatives pricing system using **Kyber-1024** post-qu
 ### Setup
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/pqc-options-platform.git
+git clone https://github.com/anveshachuri/pqc-options-platform.git
 cd pqc-options-platform
 
 # Create virtual environment
