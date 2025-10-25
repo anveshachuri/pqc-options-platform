@@ -1,0 +1,67 @@
+{
+  "key_sizes": {
+    "kyber": {
+      "public_key_bytes": 64,
+      "private_key_bytes": 64,
+      "total_bytes": 128
+    },
+    "rsa": {
+      "public_key_bytes": 451,
+      "private_key_bytes": 1704,
+      "total_bytes": 2155
+    }
+  },
+  "keygen": {
+    "kyber": {
+      "avg_ms": 0.005104000156279653,
+      "std_ms": 0.0037387409525687938
+    },
+    "rsa": {
+      "avg_ms": 52.869541000400204,
+      "std_ms": 35.79375481021168
+    },
+    "speedup": 10358.452073194534
+  },
+  "encryption": {
+    "1KB": {
+      "size_bytes": 1024,
+      "kyber_avg_ms": 0.038174000510480255,
+      "kyber_std_ms": 0.042126107140330285,
+      "rsa_avg_ms": null,
+      "speedup": null
+    },
+    "10KB": {
+      "size_bytes": 10240,
+      "kyber_avg_ms": 0.09241000050678849,
+      "kyber_std_ms": 0.03596070233040167,
+      "rsa_avg_ms": null,
+      "speedup": null
+    },
+    "100KB": {
+      "size_bytes": 102400,
+      "kyber_avg_ms": 0.448696000239579,
+      "kyber_std_ms": 0.1492928425157041,
+      "rsa_avg_ms": null,
+      "speedup": null
+    },
+    "1MB": {
+      "size_bytes": 1048576,
+      "kyber_avg_ms": 4.46386200026609,
+      "kyber_std_ms": 0.7779418033479603,
+      "rsa_avg_ms": null,
+      "speedup": null
+    }
+  },
+  "pricing": {
+    "black_scholes": {
+      "avg_us": 632.545699889306,
+      "std_us": 145.83836800334396,
+      "throughput_per_sec": 1580.9134425781372
+    }
+  },
+  "end_to_end": {
+    "avg_ms": 1.2354379998578224,
+    "std_ms": 0.4946459886814015,
+    "throughput_per_sec": 809.4295303488177
+  }
+}
